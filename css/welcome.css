@@ -1,0 +1,121 @@
+		.row {
+			background-color: #95c4f94d;
+			margin: auto 10%;
+			border-width: 0 0 0 0;
+			box-shadow: #080a0ecc 0px 0px 20px 3px;
+			border-radius: 35px 35px 35px 35px;
+		}
+		/*a链接 在被选中和点击时  的字体颜色，粗度，大小*/
+		
+		a {
+			color: #FFFFFFB3;
+			font-weight: bolder;
+			text-align: center;
+			font-size: 18px;
+		}
+		
+		a:hover {
+			color: #FFFFFF;
+			text-decoration-line: none;
+			font-size: 16px;
+		}
+		
+		a:hover,
+		a:focus {
+			color: #50ab9bcc;
+		}
+		/* body相关属性 */
+		
+		body {
+			background-image: url(../img/mainPageImg.jpg);
+			no-repeat;
+			list-style: none;
+			/*去掉ui和li的 点*/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center bottom;
+			color: #fff;
+			background-color: #333;
+			font-family: 'microsoft yahei', Arial, sans-serif;
+		}
+		
+		#title {
+			width: auto;
+			text-align: center;
+			font-size: 140px;
+			margin-top: 200px;
+			transition: font-size 2s;
+		}
+		
+		#title:hover {
+			font-size: 148px;
+		}
+		
+		.aTopAndBottom {
+			height: auto;
+			text-align: center;
+			padding: 10px 0px;
+			min-width: 20px;
+		}
+		
+		.netease_Player {
+			position: absolute;
+			display: none;
+		}
+		
+		.dropdown-menu>li>a:hover,
+		.dropdown-menu>li>a:focus {
+			color: #fff !important;
+			background-color: #fff0 !important;
+			font-size: 19px;
+		}
+		
+		.dropup .dropdown-menu {
+			background-color: #fff0 !important;
+			text-decoration: none;
+			margin-bottom: 10px;
+			border: 0px;
+			border-radius: 16px 16px 0px 0px;
+			box-shadow: none;
+			margin-bottom: 14px;
+		}
+		
+		.dropdown-menu>li>a {
+			color: #fff;
+			padding: 12px;
+			font-weight: bolder;
+		}
+		
+		.navbar {
+			min-height: 46px;
+		}
+		/*登录框  最大宽度 与上边距 重构*/
+		
+		.modal-dialog {
+			width: 350px;
+			margin: 60px auto;
+		}
+		/*登录框 背景颜色与透明度，边框线粗度，边框弧度，边框阴影 重写*/
+		
+		.modal-content {
+			background-color: #afd2ff66;
+			border: 0px solid rgba(0, 0, 0, .2);
+			border-radius: 31px;
+			box-shadow: 0px 0px 40px 21px rgba(131, 151, 201, 0.5);
+			-webkit-box-shadow: 0px 0px 40px 21px rgba(131, 151, 201, 0.5);
+			box-shadow: 0px 0px 40px 21px rgba(131, 151, 201, 0.5);
+		}
+		/* 登录框位置重写 */
+		
+		.modal-body {
+			position: relative;
+			padding: 10px 34px;
+		}
+		/*输入框 背景颜色与透明度重构*/
+		
+		.form-control {
+			background-color: #fffc;
+		}
